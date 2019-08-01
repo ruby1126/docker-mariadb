@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  mysql:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - mysqlvolume:/var/lib/mysql
+    ports:
+      - 3316:3306
+      
+volumes:
+  mysqlvolume:
