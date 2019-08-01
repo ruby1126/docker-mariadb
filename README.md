@@ -25,3 +25,5 @@ services:
 volumes:
   mysqlvolume:
 </code></pre>
+<p>一樣打開powershell，執行</p>
+<pre><code>docekr-compose up -d</code></pre>
