@@ -1,11 +1,11 @@
-# docker-mysql
+# docker-mariadb
 mysql in docker
 
 ### 建立容器
 <p>下載所有檔案，打開powershell，執行</p>
 <pre><code>docekr-compose up -d</code></pre>
 
-### 使用adminer對mysql進行圖形化操作
+### 使用adminer對mariadb進行圖形化操作
 <p>打開docker-compose.yml 加入</p>
 <pre><code>version: '3.7'
 services:
